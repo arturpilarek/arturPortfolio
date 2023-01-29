@@ -1,4 +1,8 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-
+    modules: ['@nuxtjs/tailwindcss'],
+    components: {
+        // @ts-ignore
+        path: '~/components/',
+        pathPrefix: false
+    }
 })
