@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
 <!--    <header class="fixed shadow-sm bg-white">-->
 <!--      <nav class="container mx-auto p-4">-->
 <!--        <ul class="flex gap-4">-->
@@ -9,6 +9,9 @@
 <!--        </ul>-->
 <!--      </nav>-->
 <!--    </header>-->
+    <header class="fixed z-10 right-1">
+    <TheNavigation/>
+    </header>
     <div>
       <slot />
     </div>

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*body {*/
-/*    @apply bg-gray-50;*/
-/*}*/
-
 /*@layer components {*/
 /*    .btn {*/
 /*        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white inline-block;*/
@@ -18,9 +14,41 @@
 
 body {
     overflow-x: hidden;
+    @apply bg-primary;
+    color: white
 }
 
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+h2 {
+    font-family: "Chronicle Display", serif;
+}
+
+a {
+    font-family: 'Whitney Medium', sans-serif;
+}
+
+@font-face {
+    font-family: 'Chronicle Display';
+    src: url("fonts/Chronicle Display Black.otf");
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("fonts/Gotham Medium.otf");
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url("fonts/Whitney Medium.otf");
+}
+
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url("fonts/Whitney Bold.otf");
 }

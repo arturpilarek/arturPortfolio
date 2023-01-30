@@ -11,6 +11,11 @@ module.exports = {
             'secondary': '#242222',
             'accent': '#E66614'
         },
+        fontFamily: {
+            'chronicleDisplay': ['Chronicle Display', 'serif'],
+            'whitneyMedium': ['Whitney Medium', 'sans-serif'],
+            'whitneyBold': ['Whitney Bold', 'sans-serif']
+        },
         borderWidth: {
             DEFAULT: '1px',
             '0': '0',
@@ -21,6 +26,9 @@ module.exports = {
             '6': '6px',
             '7': '7px',
             '8': '8px',
+        },
+        margin: {
+            '16': '16px'
         }
     }
 }
