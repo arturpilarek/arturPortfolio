@@ -2,8 +2,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'hero-bg': "url('images/forest-bg.webp')",
-                'author-img': "url('images/author.webp')"
+                'hero-bg': "url('~/assets/images/forest-bg.webp')",
+                'author-img': "url('~/assets/images/author.webp')"
             }
         },
         colors: {

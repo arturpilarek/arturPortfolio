@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center grid place-items-center h-screen w-screen relative" data-aos="zoom-in">
+  <div class="text-center grid place-items-center h-[100svh] w-screen relative" data-aos="zoom-in">
     <div class="grid place-items-center">
       <div class="author-image w-48 w- h-48 md:w-60 md:h-60 bg-author-img bg-center bg-cover border-7 bo border-slate-300 rounded-full"></div>
       <h2 class="text-5xl mt-16">Artur <span class="font-chronicleDisplay text-accent">Pilarek</span></h2>

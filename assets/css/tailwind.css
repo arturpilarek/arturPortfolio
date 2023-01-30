@@ -35,20 +35,20 @@ a {
 
 @font-face {
     font-family: 'Chronicle Display';
-    src: url("fonts/Chronicle Display Black.otf");
+    src: url("~/assets/fonts/Chronicle Display Black.otf");
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url("fonts/Gotham Medium.otf");
+    src: url("~/assets/fonts/Gotham Medium.otf");
 }
 
 @font-face {
     font-family: 'Whitney Medium';
-    src: url("fonts/Whitney Medium.otf");
+    src: url("~/assets/fonts/Whitney Medium.otf");
 }
 
 @font-face {
     font-family: 'Whitney Bold';
-    src: url("fonts/Whitney Bold.otf");
+    src: url("~/assets/fonts/Whitney Bold.otf");
 }

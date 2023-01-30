@@ -21,7 +21,7 @@
         <li v-if="active"><a class="font-whitneyBold" href="#">Contact me</a></li>
         </transition-slide>
       </ul>
-      <transition-slide class="social-icons absolute bottom-4 flex gap-4" :offset="[0, 32]" group duration="1000">
+      <transition-slide class="social-icons absolute bottom-4 flex gap-4 block w-full justify-center" :offset="[0, 32]" group duration="1000">
           <a v-if="active" href=""><Icon name="uil:github" /></a>
           <a v-if="active" href=""><Icon name="uil:linkedin" /></a>
           <a v-if="active" href=""><Icon name="ic:baseline-mail" /></a>
