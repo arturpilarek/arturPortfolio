@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <HeroSection />
-    <AboutSection data-aos="zoom-in"/>
+  <div class="h-48">
+    About me..
   </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style scoped>

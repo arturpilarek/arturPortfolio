@@ -15,3 +15,12 @@
 /*        @apply p-3 rounded-md bg-white shadow-md h-full;*/
 /*    }*/
 /*}*/
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
