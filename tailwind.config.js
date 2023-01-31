@@ -3,13 +3,15 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'hero-bg': "url('~/assets/images/forest-bg.webp')",
-                'author-img': "url('~/assets/images/author.webp')"
+                'author-img': "url('https://unsplash.com/photos/e07MZTB6Zzg')"
+                // 'author-img': "url('~/assets/images/author.webp')"
             }
         },
         colors: {
             'primary': '#1B1B1B',
             'secondary': '#242222',
-            'accent': '#E66614'
+            'accent': '#E66614',
+            'white': '#FFFFFF'
         },
         fontFamily: {
             'chronicleDisplay': ['Chronicle Display', 'serif'],
@@ -26,9 +28,6 @@ module.exports = {
             '6': '6px',
             '7': '7px',
             '8': '8px',
-        },
-        margin: {
-            '16': '16px'
         }
     }
 }

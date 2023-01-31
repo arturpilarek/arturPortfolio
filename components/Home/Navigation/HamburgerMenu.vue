@@ -1,5 +1,5 @@
 <template>
-  <button @click="$emit('toggleActive')" :class="{ 'hamburger--active': active }" class="hamburger absolute right-0">
+  <button @click="$emit('toggleActive')" :class="{ 'hamburger--active': active }" class="hamburger mt-2 absolute right-0">
         <span class="hamburger__box">
           <span class="hamburger__inner"></span>
         </span>
@@ -19,6 +19,8 @@ defineProps({
 
 <style scoped>
 .hamburger {
+  display: grid;
+  place-items: center;
   cursor: pointer;
   background-color: transparent;
   border: 0;
@@ -35,25 +37,25 @@ defineProps({
 }
 
 .hamburger__inner {
-  width: 25px;
-  height: 2px;
+  width: 30px;
+  height: 3px;
   background-color: white;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
-  transition: background-color 0.2s 0.2s ease-in-out;
+  transition: background-color 0.2s 0.1s ease-in-out;
 }
 
 .hamburger__inner::before,
 .hamburger__inner::after {
   content: "";
   left: 0;
-  width: 25px;
-  height: 2px;
+  width: 30px;
+  height: 3px;
   background-color: white;
   position: absolute;
-  transition: transform 0.2s 0.2s ease-in-out;
+  transition: transform 0.2s 0.1s ease-in-out;
 }
 
 .hamburger__inner::before {
@@ -76,27 +78,4 @@ defineProps({
   transform: translateY(-10px) rotate(-45deg);
 }
 
-@media screen and (min-width:834px) and (max-width: 1194px) {
-  .hamburger__box {
-    width: 90px;
-    height: 60px;
-  }
-  .hamburger__inner, .hamburger__inner::before,
-  .hamburger__inner::after {
-    width: 39px;
-  }
-  .hamburger__inner::before
-  {
-    top: -16px
-  }
-  .hamburger__inner::after {
-    top: 16px
-  }
-  .hamburger--active .hamburger__inner::before {
-    transform: translateY(16px) rotate(45deg)
-  }
-  .hamburger--active .hamburger__inner::after {
-    transform: translateY(-16px) rotate(-45deg)
-  }
-}
 </style>

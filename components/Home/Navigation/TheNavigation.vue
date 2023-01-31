@@ -1,16 +1,17 @@
 <template>
   <header class="">
     <div class="overlay absolute bg-primary opacity-80 w-screen h-screen" @click="toggleActive" :class="active ? 'block' : 'hidden'" ></div>
-      <div class="relative w-screen">
+      <div class="mobile-nav relative w-screen sm:hidden">
         <MobileNavigation :active="active"/>
         <HamburgerMenu @toggleActive="toggleActive" :active="active"/>
       </div>
-
+      <div class="desktop-nav relative w-screen mt-6 hidden sm:block">
+        <DesktopNavigation/>
+      </div>
   </header>
 </template>
 
 <script setup>
-
   const active = ref(false)
 
   const toggleActive = () => {
