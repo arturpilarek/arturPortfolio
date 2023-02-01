@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto p-10 w-full flex flex-col md:flex-row gap-4">
+  <section  class="container mx-auto p-10 w-full flex flex-col md:flex-row gap-4">
   <div class="md:w-3/5">
     <h2 class="text-3xl pb-2 xl:text-5xl lg:text-4xl">Hey, i'm Rutra</h2>
     <p class="pb-2 text-sm xl:text-xl lg:text-base">and Web development is my passion. I’m detail oriented Frontend developer, who is passionate about combining good
