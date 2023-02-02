@@ -33,6 +33,23 @@ a {
     font-family: 'Whitney Medium', sans-serif;
 }
 
+
+.justify-self-left {
+    justify-self: left;
+}
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-right {
+    justify-self: right;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+}
+
+
 @font-face {
     font-family: 'Chronicle Display';
     src: url("~/assets/fonts/Chronicle_Display_Black.otf");

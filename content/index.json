@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Kold festival",
+      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
+      "githubUrl": "https://github.com/",
+      "imageFileName": "kold-festival.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "tags": [
+        "Vue",
+        "Sanity.io",
+        "Sass"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Asentrum",
+      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
+      "githubUrl": "https://github.com/",
+      "imageFileName": "asentrum.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "tags": [
+        "Vue",
+        "Vuex",
+        "Firebase",
+        "Sass"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Task management app",
+      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
+      "githubUrl": "https://github.com/",
+      "imageFileName": "todo-app.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "tags": [
+        "React"
+      ]
+    }
+  ]
+}
