@@ -7,7 +7,7 @@
       </p>
     </div>
     <div class="w-full">
-      <ProjectCard v-for="projectData in parsedData" key="projectData.id" :project="projectData"/>
+      <ProjectCard data-aos="zoom-in" v-for="(projectData, index) in parsedData" key="projectData.id" :reversePosition="Boolean(index % 2)" :project="projectData"/>
     </div>
   </section>
 </template>
