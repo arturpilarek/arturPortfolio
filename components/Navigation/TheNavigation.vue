@@ -2,7 +2,7 @@
   <header class="">
     <div class="overlay absolute bg-primary opacity-80 w-screen h-screen" @click="toggleActive" :class="active ? 'block' : 'hidden'" ></div>
       <div class="mobile-nav relative w-screen sm:hidden">
-        <MobileNavigation :active="active"/>
+        <MobileNavigation @click="toggleActive" :active="active"/>
         <HamburgerMenu @toggleActive="toggleActive" :active="active"/>
       </div>
       <div class="desktop-nav relative w-screen mt-6 hidden sm:block">

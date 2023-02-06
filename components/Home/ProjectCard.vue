@@ -1,12 +1,12 @@
 <template>
-  <div class="projectCard">
+  <div class="projectCard md:my-12">
     <div class="  md:h-[400px] w-full h-full relative md:flex md:items-center ">
       <div
-          class="projectCard__image  w-full md:absolute md:top-1/2 md:-translate-y-1/2 md:h-[400px]  md:w-3/6 h-full"
+          class="projectCard__image  w-full md:absolute md:top-1/2 md:-translate-y-1/2 md:h-[400px]  md:w-5/12 h-full"
           :class="{'md:right-0' : reversePosition, 'md:left-0' : !reversePosition}">
-        <div class="w-full relative">
+        <div class="w-full relative h-[200px] md:h-[400px] bg-cover bg-left bg-top bg-no-repeat" :style="{'background-Image': handleImageUrl()}">
           <div class="overlay bg-primary opacity-50 absolute z-10 w-full h-full"></div>
-          <img :src="handleImageUrl()" class="w-full md:h-[400px]" alt="Project image">
+<!--          <img :src="handleImageUrl()" class="w-full md:h-[400px]" alt="Project image">-->
         </div>
       </div>
       <div class="projectCard__content md:z-20 md:pl-[25%] lg:pl-[35%] md:pr-[15%] lg:pr-[15%]"
@@ -37,10 +37,9 @@
   const {project, reversePosition, noIntersection} = defineProps(["project", "reversePosition", "noIntersection"])
 
   function handleImageUrl() {
-    return `images/${project.imageFileName}`
+    return `url(images/${project.imageFileName})`
   }
 
-  console.log(noIntersection)
 </script>
 
 <style scoped>
