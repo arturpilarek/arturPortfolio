@@ -3,7 +3,7 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'hero-bg': "url('~/assets/images/forest-bg.webp')",
-                'author-img': "url('https://unsplash.com/photos/e07MZTB6Zzg')"
+                'author-img': "url('~/assets/images/author.webp')"
                 // 'author-img': "url('~/assets/images/author.webp')"
             }
         },

@@ -23,16 +23,16 @@
       </ul>
       <transition-slide class="social-icons absolute bottom-4 flex gap-4 block w-full justify-center" :offset="[0, 32]"
                         group duration="1000">
-        <a v-if="active" href="">
+        <a v-if="active" href="https://github.com/arturpilarek" target="_blank">
           <Icon name="uil:github"/>
         </a>
-        <a v-if="active" href="">
+        <a v-if="active" href="https://www.linkedin.com/in/artur-pilarek/" target="_blank">
           <Icon name="uil:linkedin"/>
         </a>
-        <a v-if="active" href="">
+        <a v-if="active" href="mailto:artur.pilarek@gmail.com">
           <Icon name="ic:baseline-mail"/>
         </a>
-        <a v-if="active" href="">
+        <a v-if="active" href="artur-pilarek-CV.pdf" target="_blank">
           <Icon name="academicons:cv"/>
         </a>
       </transition-slide>

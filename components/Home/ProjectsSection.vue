@@ -7,7 +7,7 @@
       </p>
     </div>
     <div class="w-full">
-      <ProjectCard data-aos="zoom-in" v-for="(projectData, index) in parsedData" key="projectData.id" :reversePosition="Boolean(index % 2)" :project="projectData"/>
+      <ProjectCard data-aos="zoom-in" v-for="(projectData, index) in parsedData" key="projectData.id" :noIntersection="index === (parsedData.length - 1)" :reversePosition="Boolean(index % 2)" :project="projectData"/>
     </div>
   </section>
 </template>

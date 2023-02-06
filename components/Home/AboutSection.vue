@@ -1,7 +1,7 @@
 <template>
   <section  class="container mx-auto p-10 w-full flex flex-col md:flex-row gap-4">
   <div class="md:w-3/5">
-    <h2 class="text-3xl pb-2 xl:text-5xl lg:text-4xl">Hey, i'm Rutra</h2>
+    <h2 class="text-3xl pb-2 xl:text-5xl lg:text-4xl">Hey, i'm Artur</h2>
     <p class="pb-2 text-sm xl:text-xl lg:text-base">and Web development is my passion. I’m detail oriented Frontend developer, who is passionate about combining good
       User Experience with a high quality code.</p>
     <div class="intersection  w-28 xl:w-72 md:w-48 h-0.5 bg-white"></div>
@@ -12,7 +12,10 @@
       <br><br>
       When i’m not in front of my computer screen, i’m probably lifting weights or playing games.</p>
   </div>
-    <img class="md:w-2/6 m-auto h-auto" src="~/assets/images/about-placeholder.webp" alt="Author's image">
+    <div class="md:w-2/6 m-auto h-auto relative">
+      <div class="overlay bg-primary opacity-30 absolute z-10 w-full h-full"></div>
+    <img class="w-full h-full" src="~/assets/images/about.webp" alt="Author's image">
+    </div>
   </section>
 </template>
 

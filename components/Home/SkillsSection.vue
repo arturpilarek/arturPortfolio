@@ -2,13 +2,13 @@
   <section data-aos="zoom-in" class=" bg-secondary   w-screen ">
     <div class="container mx-auto p-10">
     <h2 class="text-3xl xl:text-5xl lg:text-4xl">Skills</h2>
-    <div class="intersection  w-28 xl:w-72 md:w-48 h-0.5 bg-white mb-2 mt-1"></div>
+    <div class="intersection  w-28 xl:w-72 xl:w-48 h-0.5 bg-white mb-2 mt-1"></div>
     <p class="pb-2 text-[11px] xl:text-xl lg:text-base">“In the beninging, in the, in the benininngin” - Jacob Zuma</p>
-    <div class="max-w-2xl md:max-w-full  flex flex-col gap-4 items-center xl:flex-row xl:justify-between mx-auto xl:item md:justify-center mx-auto py-8">
-      <div class="bg-tertiary border-accent border-2 mih-h-[328px] md:min-h-[483px] xl:min-h-[500px] w-[282px] md:min-w-[406px] py-4 md:py-8 px-8 md:px-16 rounded">
-        <h3 class="text-xl md:text-3xl text-center">Frontend skills</h3>
+    <div class="max-w-2xl xl:max-w-full  flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap md:justify-center gap-4 items-center xl:flex-row xl:justify-between mx-auto xl:item xl:justify-center mx-auto py-8">
+      <div class="bg-tertiary border-accent border-2 mih-h-[328px] md:h-[340px] xl:h-[510px] w-[282px] xl:min-w-[406px] py-4 xl:py-8 px-8 xl:px-16 rounded">
+        <h3 class="text-xl xl:text-3xl text-center">Frontend skills</h3>
         <div class="list-container font-whitneyMedium">
-          <div class="flex justify-center gap-8 md:gap-12 text-xs md:text-lg mt-3.5 mb-8 md:mb-14 text-no-wrap">
+          <div class="flex justify-center gap-8 xl:gap-12 text-xs xl:text-lg mt-3.5 mb-8 xl:mb-14 text-no-wrap">
             <ul class="list ">
               <li>Nuxt.js</li>
               <li>Vue.js 2 & 3</li>
@@ -36,10 +36,10 @@
         </div>
       </div>
 
-      <div class="bg-tertiary border-accent border-2 mih-h-[328px] md:min-h-[483px] xl:min-h-[500px] w-[282px] md:min-w-[406px] py-4 md:py-8 px-8 md:px-16 rounded">
-        <h3 class="text-xl md:text-3xl text-center text-no-wrap">Tools and Backend</h3>
+      <div class="bg-tertiary border-accent border-2 mih-h-[328px] md:h-[340px] xl:h-[510px] w-[282px] xl:min-w-[406px] py-4 xl:py-8 px-8 xl:px-16 rounded">
+        <h3 class="text-xl xl:text-3xl text-center text-no-wrap">Tools and Backend</h3>
         <div class="list-container font-whitneyMedium">
-          <div class="flex justify-center gap-8 md:gap-12 text-xs md:text-lg mt-3.5 mb-8 xl:mb-8 md:mb-14 text-no-wrap">
+          <div class="flex justify-center gap-8 xl:gap-12 text-xs xl:text-lg mt-3.5 mb-8 xl:mb-8 xl:mb-14 text-no-wrap">
             <ul class="list ">
               <li>Firebase</li>
               <li>Sanity.io</li>
@@ -70,10 +70,10 @@
         </div>
       </div>
 
-      <div class="bg-tertiary border-accent border-2 w-[282px] xl:min-h-[500px] md:min-w-[406px] py-4 md:py-8 px-8 md:px-16 rounded">
-        <h3 class="text-xl md:text-3xl text-center">Currently learning</h3>
+      <div class="bg-tertiary border-accent border-2 w-[282px] xl:min-h-[510px] xl:min-w-[406px] py-4 xl:py-8 px-8 xl:px-16 rounded">
+        <h3 class="text-xl xl:text-3xl text-center">Currently learning</h3>
         <div class="list-container font-whitneyMedium">
-          <div class="text-xs md:text-lg mt-3.5 mb-8 md:mb-14 text-no-wrap">
+          <div class="text-xs xl:text-lg mt-3.5 mb-8 xl:mb-14 text-no-wrap">
             <ul class="list">
               <li>Angular</li>
               <li>AWS</li>
@@ -113,7 +113,7 @@
     height: auto;
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     svg {
       width: 53px;
     }
