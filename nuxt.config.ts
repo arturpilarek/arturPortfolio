@@ -22,5 +22,10 @@ export default defineNuxtConfig({
         // @ts-ignore
         path: '~/components/',
         pathPrefix: false
-    }
+    },
+    runtimeConfig: {
+        public: {
+            FORMEEZY_ENDPOINT: process.env.FORMEEZY_ENDPOINT
+        }
+    },
 })

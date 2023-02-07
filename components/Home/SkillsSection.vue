@@ -1,9 +1,11 @@
 <template>
-  <section class=" bg-secondary   w-screen ">
+  <section class="bg-secondary w-screen">
     <div class="container mx-auto p-10">
-    <h2 data-aos="zoom-in" class="text-3xl xl:text-5xl lg:text-4xl">Skills</h2>
-    <div data-aos="zoom-in" class="intersection  w-28 xl:w-72 xl:w-48 h-0.5 bg-white mb-2 mt-1"></div>
-    <p data-aos="zoom-in" class="pb-2 text-[11px] xl:text-xl lg:text-base">“In the beninging, in the, in the benininngin” - Jacob Zuma</p>
+      <div class="w-fit">
+        <h2 data-aos="zoom-in" class="text-3xl xl:text-5xl lg:text-4xl">Skills</h2>
+        <div data-aos="zoom-in" class="intersection  w-[115%] h-0.5 bg-white mb-2 mt-1"></div>
+      </div>
+<!--    <p data-aos="zoom-in" class="pb-2 text-[11px] xl:text-xl lg:text-base">“In the beninging, in the, in the benininngin” - Jacob Zuma</p>-->
     <div class="max-w-2xl xl:max-w-full  flex flex-col md:flex-row md:flex-wrap xl:flex-nowrap md:justify-center gap-4 items-center xl:flex-row xl:justify-between mx-auto xl:item xl:justify-center mx-auto py-8">
       <div data-aos="zoom-in" class="bg-tertiary border-accent border-2 mih-h-[328px] md:h-[340px] xl:h-[510px] w-[282px] xl:min-w-[406px] py-4 xl:py-8 px-8 xl:px-16 rounded">
         <h3 class="text-xl xl:text-3xl text-center">Frontend skills</h3>

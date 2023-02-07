@@ -4,6 +4,7 @@
     <AboutSection id="about" data-aos="zoom-in"/>
     <SkillsSection id="skills"/>
     <ProjectsSection id="projects"/>
+    <ContactSection id="contact"/>
     <div class="md:block hidden fixed left-0 bottom-0 ml-4">
       <SideSocialBar/>
     </div>

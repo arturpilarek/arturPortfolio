@@ -3,10 +3,10 @@
     {
       "id": 1,
       "title": "Kold festival",
-      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
-      "githubUrl": "https://github.com/",
+      "demoUrl": "https://kold-festival-firebase.web.app/",
+      "githubUrl": "https://github.com/MrKraack/KoldFestivalGruppe1",
       "imageFileName": "kold-festival.webp",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "content": "Website for the Kold Festival organization. Using the Vue.js framework and Sanity.io CMS, we created a user-friendly and visually appealing website to provide festival-goers with all the information they needed.",
       "tags": [
         "Vue",
         "Sanity.io",
@@ -16,10 +16,10 @@
     {
       "id": 2,
       "title": "Asentrum",
-      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
-      "githubUrl": "https://github.com/",
+      "demoUrl": "https://asentrum-project.web.app/",
+      "githubUrl": "https://github.com/arturpilarek/Asentrum",
       "imageFileName": "asentrum.webp",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "content": "As part of my final exam as a multimedia designer, I created a prototype for an intranet application for the company Asento. Using Vue.js, Firebase and Sass, I created user friendly dashboard. Despite not being a completed project (requires some RWD adjustments and functionality), I view it as a personal success, because i learned so much and scored the highest grade.",
       "tags": [
         "Vue",
         "Vuex",

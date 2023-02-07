@@ -33,6 +33,10 @@ a {
     font-family: 'Whitney Medium', sans-serif;
 }
 
+.custom-input {
+    @apply bg-tertiary border-2 border-accent rounded-md px-3 py-3 focus:border-white hover:border-accent-hover placeholder-opacity-95 placeholder-opacity-70 text-white w-full font-whitneyMedium
+}
+
 
 .justify-self-left {
     justify-self: left;

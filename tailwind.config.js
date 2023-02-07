@@ -12,6 +12,7 @@ module.exports = {
             'secondary': '#242222',
             'tertiary': '#312C2C',
             'accent': '#E66614',
+            'accent-hover': 'hsl(23, 84%, 58%)',
             'tagText': '#D3B2B2',
             'white': '#FFFFFF'
         },

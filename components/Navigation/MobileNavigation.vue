@@ -14,11 +14,11 @@
         <transition-slide class="h-6 w-24" :offset="[-32, 0]" group duration="1250">
           <li v-if="active"><a @click="$emit('toggleActive')" href="#projects">Projects</a></li>
         </transition-slide>
-        <transition-slide class="h-6 w-24" :offset="[-32, 0]" group duration="1500">
-          <li v-if="active"><a @click="$emit('toggleActive')" href="#">Blog</a></li>
-        </transition-slide>
+<!--        <transition-slide class="h-6 w-24" :offset="[-32, 0]" group duration="1500">-->
+<!--          <li v-if="active"><a @click="$emit('toggleActive')" href="#">Blog</a></li>-->
+<!--        </transition-slide>-->
         <transition-slide class="h-6 w-24" :offset="[-32, 0]" group duration="1750">
-          <li v-if="active"><a @click="$emit('toggleActive')" class="font-whitneyBold" href="#">Contact me</a></li>
+          <li v-if="active"><a @click="$emit('toggleActive')" class="font-whitneyBold" href="#contact">Contact me</a></li>
         </transition-slide>
       </ul>
       <transition-slide class="social-icons absolute bottom-4 flex gap-4 block w-full justify-center" :offset="[0, 32]"

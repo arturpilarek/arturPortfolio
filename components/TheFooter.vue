@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full h-40 text-base  bg-secondary flex flex-col items-center justify-center">
+  <footer class="w-full h-40 text-base  bg-primary flex flex-col items-center justify-center">
     <div class="flex items-center md:text-lg gap-[6px] md:gap-[10px]">
       <p>Developed & designed with </p>
       <Icon name="skill-icons:nuxtjs-dark"/>
