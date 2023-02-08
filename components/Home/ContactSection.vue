@@ -6,7 +6,7 @@
       <div data-aos="zoom-in" class="intersection  w-[115%] h-0.5 bg-white mb-2 mt-1"></div>
      </div>
         <p data-aos="zoom-in" class="font-whitneyMedium pb-2 xl:text-xl lg:text-base">I am currently seeking new opportunities, including internship this summer and/or study job right now. Please reach out to discuss potential opportunities. </p>
-    <form class="w-full md:w-3/5 xl:w-2/5 mt-4 text-primary flex flex-col justify-center gap-4 items-start" @submit.prevent="handleSubmit">
+    <form data-aos="zoom-in" class="w-full md:w-3/5 xl:w-2/5 mt-4 text-primary flex flex-col justify-center gap-4 items-start" @submit.prevent="handleSubmit">
       <input class="custom-input" name="Name" type="text" placeholder="Name" required />
       <input class="custom-input" name="Email" type="email" placeholder="Email" required />
       <input class="custom-input" name="Subject" type="text" placeholder="Subject" required />
@@ -26,7 +26,6 @@ async function handleSubmit(e){
   await axios
       .post(`${config.FORMEEZY_ENDPOINT}`, new FormData(e.target))
       .then(({ data }) => {
-        console.log(data)
         const { redirect } = data;
         window.location.href = redirect;
       });

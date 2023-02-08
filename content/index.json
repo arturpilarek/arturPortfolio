@@ -19,7 +19,7 @@
       "demoUrl": "https://asentrum-project.web.app/",
       "githubUrl": "https://github.com/arturpilarek/Asentrum",
       "imageFileName": "asentrum.webp",
-      "content": "As part of my final exam as a multimedia designer, I created a prototype for an intranet application for the company Asento. Using Vue.js, Firebase and Sass, I created user friendly dashboard. Despite not being a completed project (requires some RWD adjustments and functionality), I view it as a personal success, because i learned so much and scored the highest grade.",
+      "content": "As part of my final exam as a multimedia designer, I created a prototype for an intranet application for the company Asento. Using Vue.js, Firebase and Sass, I created user friendly dashboard. Despite not being a completed project (requires some RWD adjustments and functionality), I view it as a personal success, because i learned so much.",
       "tags": [
         "Vue",
         "Vuex",
@@ -30,12 +30,25 @@
     {
       "id": 3,
       "title": "Task management app",
-      "demoUrl": "https://www.markdownguide.org/basic-syntax/",
-      "githubUrl": "https://github.com/",
+      "demoUrl": "https://arturpilarek.github.io/React-TODO-officeHelper/",
+      "githubUrl": "https://github.com/arturpilarek/React-TODO-officeHelper",
       "imageFileName": "todo-app.webp",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod nulla non arcu malesuada placerat. Mauris ac volutpat eros. Ut efficitur lectus vel ultricies dapibus. Nulla ac pellentesque nulla, lobortis tincidunt ipsum. Fusce id massa vitae leo ultrices maximus. Aenean tempor, dolor sit amet volutpat rutrum, orci sapien viverra orci, id ornare tortor orci at ligula.",
+      "content": "Task Management App, built with React.js, is a to-do list tool that helps users stay organized. In the future updates, i'd like to include Pomodoro timer and calendar integration.",
       "tags": [
         "React"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Weather Forecast App",
+      "demoUrl": "https://arturpilarek.github.io/weather-app-ama/",
+      "githubUrl": "https://github.com/arturpilarek/weather-app-ama",
+      "imageFileName": "weather-app.webp",
+      "content": "This project involved working with a REST API to display current weather data for a user-specified location. Interface displays information such as temperature, humidity, and wind speed. Project's not mobile optimized.",
+      "tags": [
+        "JavaScript",
+        "REST API",
+        "Sass"
       ]
     }
   ]
