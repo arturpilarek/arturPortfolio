@@ -77,7 +77,7 @@
         <div class="list-container font-whitneyMedium">
           <div class="text-xs xl:text-lg mt-3.5 mb-8 xl:mb-14 text-no-wrap">
             <ul class="list">
-              <li>Angular</li>
+              <li>Next.js</li>
               <li>AWS</li>
               <li>Node & Express.js</li>
             </ul>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="grid grid-cols-3  gap-6">
-          <Icon class="justify-self-left" name="logos:angular-icon"/>
+          <Icon class="justify-self-left" name="skill-icons:nextjs-dark"/>
           <Icon class="justify-self-center" name="skill-icons:aws-dark"/>
           <Icon class="justify-self-right" name="skill-icons:expressjs-dark"/>
         </div>

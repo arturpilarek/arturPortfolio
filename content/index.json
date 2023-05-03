@@ -2,6 +2,22 @@
   "projects": [
     {
       "id": 1,
+      "title": "Meme-commerce",
+      "demoUrl": "https://ecommerce-project-next-hygraph.vercel.app/",
+      "githubUrl": "https://github.com/arturpilarek/ecommerce-project-next-hygraph",
+      "imageFileName": "meme-commerce.webp",
+      "content": "Meme-commerce is an e-commerce website developed using Next.js, Typescript, Tailwind CSS, Tailwind UI, and Hygraph CMS. The website is designed to sell a variety of meme-related products, including posters, mugs, and desk accessories.",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "GrahpQL",
+        "Hygraph CMS",
+        "Tailwind",
+        "Tailwind UI"
+      ]
+    },
+    {
+      "id": 2,
       "title": "Kold festival",
       "demoUrl": "https://kold-festival-firebase.web.app/",
       "githubUrl": "https://github.com/MrKraack/KoldFestivalGruppe1",
@@ -14,7 +30,21 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
+      "title": "MERN Taskify App",
+      "demoUrl": "https://todo-mern-with-auth.vercel.app/",
+      "githubUrl": "https://github.com/arturpilarek/Todo-MERN-withAuth",
+      "imageFileName": "todo-app.webp",
+      "content": "Simple todo app, built with MERN stack. This project was focused around creating secure full stack application with authentication functionality. All data is stored in Mongo.db. Styling wasn't the goal of this project.",
+      "tags": [
+        "MERN",
+        "React",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 4,
       "title": "Asentrum",
       "demoUrl": "https://asentrum-project.web.app/",
       "githubUrl": "https://github.com/arturpilarek/Asentrum",
@@ -28,18 +58,7 @@
       ]
     },
     {
-      "id": 3,
-      "title": "Task management app",
-      "demoUrl": "https://arturpilarek.github.io/React-TODO-officeHelper/",
-      "githubUrl": "https://github.com/arturpilarek/React-TODO-officeHelper",
-      "imageFileName": "todo-app.webp",
-      "content": "Task Management App, built with React.js, is a to-do list tool that helps users stay organized. In the future updates, i'd like to include Pomodoro timer and calendar integration.",
-      "tags": [
-        "React"
-      ]
-    },
-    {
-      "id": 4,
+      "id": 5,
       "title": "Weather Forecast App",
       "demoUrl": "https://arturpilarek.github.io/weather-app-ama/",
       "githubUrl": "https://github.com/arturpilarek/weather-app-ama",
