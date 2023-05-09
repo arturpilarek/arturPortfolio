@@ -19,7 +19,7 @@
         </div>
         <div class="content__description-wrapper">
           <article class="bg-tertiary border-accent border-2 p-6 font-whitneyMedium text-sm md:text-base rounded-md">{{ project.content }}</article>
-          <ul class="flex" :class="{'md:justify-start' : reversePosition, 'md:justify-end' : !reversePosition}">
+          <ul class="flex flex-wrap" :class="{'md:justify-start' : reversePosition, 'md:justify-end' : !reversePosition}">
             <li class="mt-[6px] mr-[6px] text-sm md:text-lg px-3 py-[6px] text-tagText bg-tertiary rounded-md" v-for="tag in project.tags">{{ tag }}</li>
           </ul>
         </div>
